@@ -128,7 +128,6 @@ bash
 
 `sudo systemctl enable --now ssh`
 
-<img width="790" height="340" alt="image" src="https://github.com/user-attachments/assets/4f08a567-0abf-452e-8d78-60d9fce17d2d" />
 
 
 ---
@@ -153,7 +152,7 @@ bash
 This process typically takes **10–20 minutes** depending on your system speed and internet connection. Do not interrupt it.
 > 
 
-<img width="696" height="83" alt="image" src="https://github.com/user-attachments/assets/83b0dc76-4acb-4cec-871a-e629cb567d88" />
+<img width="700" height="87" alt="Screenshot 2026-05-17 151922" src="https://github.com/user-attachments/assets/a61a6ba2-9e8b-471c-bb43-05f6345ea17a" />
 
 
 ### 3.3 Retrieve Dashboard Credentials
@@ -180,7 +179,7 @@ INFO: You can access the web interface https://<your-ip>
 > 
 > 
 > `sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt`
-> <img width="543" height="124" alt="Screenshot 2026-05-16 212340" src="https://github.com/user-attachments/assets/64447ebc-817a-416c-bd1e-4edf44bc765e" />
+> <img width="774" height="149" alt="Screenshot 2026-05-17 163512" src="https://github.com/user-attachments/assets/8eed5a32-1746-42fd-b8cb-4dea78f2ac01" />
 
 > </aside>
 > 
@@ -197,7 +196,7 @@ INFO: You can access the web interface https://<your-ip>
 
 You should now see the **Wazuh Security Dashboard**.
 
-<img width="1912" height="1032" alt="image" src="https://github.com/user-attachments/assets/9d4f5c44-811e-44eb-be7c-e4f375ac2435" />
+<img width="1919" height="974" alt="Screenshot 2026-05-17 164211" src="https://github.com/user-attachments/assets/33b9c85b-7ac7-4dab-adef-5a2ec0e1f2fb" />
 
 
 ---
@@ -222,8 +221,7 @@ Download and install PuTTY from the official site:
 | Port | `22` |
 | Connection type | `SSH`  |
 
-<img width="593" height="537" alt="image" src="https://github.com/user-attachments/assets/3deb7411-2592-41a9-a1e9-9c978351fb25" />
-
+<img width="628" height="574" alt="Screenshot_1" src="https://github.com/user-attachments/assets/abee8b34-43ea-4946-a834-57cafc69f3ae" />
 
 1. *(Optional)* In the **Saved Sessions** field, type `Wazuh-Ubuntu`, then click **Save** for future use.
 2. Click **Open**.
@@ -232,7 +230,6 @@ Download and install PuTTY from the official site:
 
 You are now connected to your Ubuntu VM remotely via SSH.
 
-<img width="791" height="743" alt="image" src="https://github.com/user-attachments/assets/b8595a01-e7bd-4c25-bd0e-9566ecee8f33" />
 
 
 ### 4.3 Keep the Session Alive (Recommended)
